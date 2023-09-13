@@ -5,8 +5,8 @@ import AppTab from './AppTabs';
 export default function App() {
   return (
     <>
-      <AppTab/>      
+      <AppTab/>
       <StatusBar style="light"/>
     </>
   );
-}
+} 

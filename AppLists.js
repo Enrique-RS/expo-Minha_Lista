@@ -1,6 +1,7 @@
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-import React from "react";
+import React, { useState } from "react";
+import AppItem from "./AppItem";
 
 export default function AppList(){
     return (
