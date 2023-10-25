@@ -26,7 +26,7 @@ function AppTab() {
                 />
                 <Screen name="AppForms" component={AppForms} 
                     options={{
-                        TabBarLabel: "Adicionar"
+                        tabBarLabel: "Adicionar"
                     }}
                 />
             </Navigator>
