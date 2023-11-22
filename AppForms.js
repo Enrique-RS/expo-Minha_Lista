@@ -24,18 +24,6 @@ async function handleButtonPress(){
     const listItem = {descricao, quantidade: parseInt(quantidade)};
     Database.saveItem(listItem, id)
         .then(response => navigation.navigate("AppList", listItem));
-    /*
-    let savedItems = [];
-    const response = await AsyncStorage.getItem('items');
-
-    if(response) savedItems = JSON.parse(response);
-    savedItems.push(listItem);
-
-    await AsyncStorage.setItem('items', JSON.stringify(savedItems));
-    navigation.navigate("AppList", listItem);
-    */
-   Database.saveItem(listItem)
-        .then(response => navigation.navigate("AppList", listItem));
 }
     return (
         <View style={styles.container}>
